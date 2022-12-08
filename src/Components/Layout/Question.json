@@ -1,0 +1,47 @@
+[
+    {
+        "text": "What is the capital of America?",
+        "options": [
+          { "id": 0, "answertext": "New York City", "isCorrect": false },
+          { "id": 1, "answertext": "Boston", "isCorrect": false },
+          { "id": 2, "answertext": "Santa Fe", "isCorrect": false },
+          { "id": 3, "answertext": "Washington DC", "isCorrect": true }
+        ]
+      },
+      {
+        "text": "What year was the Constitution of America written?",
+        "options": [
+          { "id": 0, "answertext": "1787", "isCorrect": true },
+          { "id": 1, "answertext": "1776", "isCorrect": false },
+          { "id": 2, "answertext": "1774", "isCorrect": false },
+          { "id": 3, "answertext": "1826", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Who was the second president of the US?",
+        "options": [
+          { "id": 0, "answertext": "John Adams", "isCorrect": true },
+          { "id": 1, "answertext": "Paul Revere", "isCorrect": false },
+          { "id": 2, "answertext": "Thomas Jefferson", "isCorrect": false },
+          { "id": 3, "answertext": "Benjamin Franklin", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "What is the largest state in the US?",
+        "options": [
+          { "id": 0, "answertext": "California", "isCorrect": false },
+          { "id": 1, "answertext": "Alaska", "isCorrect": true },
+          { "id": 2, "answertext": "Texas", "isCorrect": false },
+          { "id": 3, "answertext": "Montana", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Which of the following countries DO NOT border the US?",
+        "options": [
+          { "id": 0, "answertext": "Canada", "isCorrect": false },
+          { "id": 1, "answertext": "Russia", "isCorrect": true },
+          { "id": 2, "answertext": "Cuba", "isCorrect": false },
+          { "id": 3, "answertext": "Mexico", "isCorrect": false }
+        ]
+      }
+]
