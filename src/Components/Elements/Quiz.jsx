@@ -7,10 +7,10 @@ function Quiz() {
   const [score, setScore] = useState(0);
   const [correctAns, setCorrectAns] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  const [clicked, setClicked]=useState();
+  const [clicked, setClicked] = useState();
 
   const handleNextOption = () => {
-    setClicked(false)
+    setClicked(false);
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < question.length) {
       setCurrentQuestion(nextQuestion);
@@ -39,6 +39,7 @@ function Quiz() {
 
   return (
     <div className="quiz">
+      <h1>CSS QUIZ</h1>
       {showResult ? (
         <Quizresult
           score={score}
@@ -48,11 +49,15 @@ function Quiz() {
       ) : (
         <>
           <div className="question-section">
-            <h5>Score: {score}</h5>
             <div className="question-count">
-              <span>
-                Question {currentQuestion + 1} of {question.length}
-              </span>
+              <div className="question">
+                <b>
+                  Question {currentQuestion + 1} of {question.length}
+                </b>
+              </div>
+              <div>
+                <h5>Score: {score}</h5>
+              </div>
             </div>
             <div className="question-text">
               {question[currentQuestion].text}
@@ -62,8 +67,10 @@ function Quiz() {
             {question[currentQuestion].options.map((ans, i) => {
               return (
                 <button
-                className={`button ${clicked && ans.isCorrect? "correct":"button"}`}
-                disabled={clicked}
+                  className={`button ${
+                    clicked && ans.isCorrect ? "correct" : "button"
+                  }`}
+                  disabled={clicked}
                   key={i}
                   onClick={() => handleAnswerOption(ans.isCorrect)}
                 >
@@ -73,7 +80,9 @@ function Quiz() {
             })}
             <div className="actions">
               <button onClick={handlePlayAgain}>Quit</button>
-              <button disabled={!clicked} onClick={handleNextOption}>Next</button>
+              <button disabled={!clicked} onClick={handleNextOption}>
+                Next
+              </button>
             </div>
           </div>
         </>

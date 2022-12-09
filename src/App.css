@@ -1,34 +1,45 @@
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   color: white;
 }
-
 .quiz {
   background-color: #252d4a;
   width: 500px;
-  min-height: 250px;
-  height: min-content;
+  min-height: 280px;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-  display: flex;
-  justify-content: space-evenly;
+  box-shadow: 10px 10px 42px 0px rgba(94, 150, 214, 0.75);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .score-section {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .question-section {
   width: 100%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .question-count {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: red;
+}
+.question {
+  margin-top: 15px;
+  font-size: 15px;
 }
 
 .question-count span {
@@ -38,8 +49,6 @@ body{
 .question-text {
   margin-bottom: 12px;
 }
-
-/* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
   display: flex;
@@ -57,16 +66,18 @@ button {
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 2px solid #234668;
   cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 2px;
 }
 
 .correct {
-  background-color: #2f922f;
+  background-color: #518d51;
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #626981;
 }
 
 button:focus {
@@ -81,10 +92,9 @@ button svg {
   margin-top: 15px;
 }
 .actions button {
-  background-color: #7cc6fe;
   justify-content: center;
 }
 .actions button:hover {
-  background-color: #234668;
+  background-color: #0e2135;
   color: white;
 }

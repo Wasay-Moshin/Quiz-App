@@ -1,47 +1,47 @@
 [
     {
-        "text": "What is the capital of America?",
+        "text": "How can you created rounded corners using CSS3?",
         "options": [
-          { "id": 0, "answertext": "New York City", "isCorrect": false },
-          { "id": 1, "answertext": "Boston", "isCorrect": false },
-          { "id": 2, "answertext": "Santa Fe", "isCorrect": false },
-          { "id": 3, "answertext": "Washington DC", "isCorrect": true }
+          {  "answertext": "border[round]: 30px;", "isCorrect": false },
+          {  "answertext": "corner-effect: round;", "isCorrect": false },
+          {  "answertext": "border-radius: 30px", "isCorrect": true },
+          {  "answertext": "alpha-effect: round-corner", "isCorrect": false }
         ]
       },
       {
-        "text": "What year was the Constitution of America written?",
+        "text": "How to rotate objects using CSS3?",
         "options": [
-          { "id": 0, "answertext": "1787", "isCorrect": true },
-          { "id": 1, "answertext": "1776", "isCorrect": false },
-          { "id": 2, "answertext": "1774", "isCorrect": false },
-          { "id": 3, "answertext": "1826", "isCorrect": false }
+          { "answertext": "object-rotation: 30deg;", "isCorrect":false },
+          {  "answertext": "transform: rotate(30deg);", "isCorrect": true },
+          {  "answertext": "rotate-object: 30deg;", "isCorrect": false },
+          {  "answertext": "transform: rotate-30deg", "isCorrect": false }
         ]
       },
       {
-        "text": "Who was the second president of the US?",
+        "text": " What does RGBa mean?",
         "options": [
-          { "id": 0, "answertext": "John Adams", "isCorrect": true },
-          { "id": 1, "answertext": "Paul Revere", "isCorrect": false },
-          { "id": 2, "answertext": "Thomas Jefferson", "isCorrect": false },
-          { "id": 3, "answertext": "Benjamin Franklin", "isCorrect": false }
+          {  "answertext": "Review Get assistance Back-up ", "isCorrect": false },
+          {  "answertext": "Red Green Blue alpha", "isCorrect": true },
+          {  "answertext": " Red Gray Brown alpha", "isCorrect": false },
+          {  "answertext": " Red Gold Black alpha", "isCorrect": false }
         ]
       },
       {
-        "text": "What is the largest state in the US?",
+        "text": "How to add text shadow using CSS3?",
         "options": [
-          { "id": 0, "answertext": "California", "isCorrect": false },
-          { "id": 1, "answertext": "Alaska", "isCorrect": true },
-          { "id": 2, "answertext": "Texas", "isCorrect": false },
-          { "id": 3, "answertext": "Montana", "isCorrect": false }
+          {  "answertext": "transition: width 2s;", "isCorrect": true },
+          { "answertext": "transition-duration: 2s; transition-effect: width;", "isCorrect": false },
+          {  "answertext": "alpha-effect: transition (width,2s);", "isCorrect": false },
+          {  "answertext": " None", "isCorrect": false }
         ]
       },
       {
-        "text": "Which of the following countries DO NOT border the US?",
+        "text": "How to you modify a border image using CSS3?",
         "options": [
-          { "id": 0, "answertext": "Canada", "isCorrect": false },
-          { "id": 1, "answertext": "Russia", "isCorrect": true },
-          { "id": 2, "answertext": "Cuba", "isCorrect": false },
-          { "id": 3, "answertext": "Mexico", "isCorrect": false }
+          {  "answertext": "border: url(image.png);", "isCorrect": false },
+          {  "answertext": "border: image url(image.png);", "isCorrect": false },
+          {  "answertext": "border-image: url(border.png) 30 30 round;", "isCorrect": true },
+          {  "answertext": " None", "isCorrect": false }
         ]
       }
 ]
